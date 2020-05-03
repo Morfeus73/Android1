@@ -4,28 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Logged">
+    tools:context=".Terza">
 
-    <TextView
-        android:id="@+id/textViewNome"
+    <Button
+        android:id="@+id/bottoneIndietro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="177dp"
-        android:layout_marginTop="357dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="355dp"
-        android:text="TextView"
+        android:text="Torna indietro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/bottoneInverti"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Inverti il tuo nome!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

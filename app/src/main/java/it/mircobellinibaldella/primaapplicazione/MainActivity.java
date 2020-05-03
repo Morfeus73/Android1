@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
 
     public void passa(View view){
